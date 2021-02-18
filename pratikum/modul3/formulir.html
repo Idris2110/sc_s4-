@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>membuat Form</title>
+</head>
+<body>
+    isikan data pribadi anda <br>
+    <form action="data.html" method="GET">
+        <table>
+            <tr>
+                <td>Nama :</td>
+                <td><input type="text" name="nama" size="30"></td>
+            </tr>
+            <tr>
+                <td>Alamat :</td>  <td><textarea cols="30" rows="5" name="alamat"></textarea></td>
+            </tr>
+            <tr>
+                <td>Usia :</td>
+                <td>
+                    <input type="radio" name="usia" value="A">Kurang dari 20 <br>
+                    <input type="radio" name="usia" value="B">Umur 20 s/d 40 <br>
+                    <input type="radio" name="usia" value="C">Lebih dari 40 <br>
+                </td>
+            </tr>
+            <tr>
+                <td>Agama : </td>
+                <td><select name="agama">
+                    <option>Katholik</option>
+                    <option>Kristen</option>
+                    <option>Hindu</option>
+                    <option>Budha</option>
+                    <option selected>Islam</option>
+                </select>
+               </td>
+            </tr>
+            <tr>
+                <td colspan="2"><input type="submit" value="simpan"></td>
+            </tr>
+        </table>
+    </form>  
+</body>
+</html>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input Data</title>
+</head>
+<body>
+    <form action="data.html" method="GET">
+        <table>
+            <tr>
+                <td colspan="2" align="center">Input Data</td>
+            </tr>
+            <tr>
+                <td>NIP</td>
+                <td><input type="number" name="nip" size="30"></td>
+            </tr>
+            <tr>
+                <td>Nama</td>
+                <td><input type="text" name="nama" size="20"></td>
+            </tr>
+            <tr>
+                <td>Password</td>
+                <td><input type="password" name="password" size="20"></td>
+            </tr>
+            <tr>
+                <td>seks</td>
+                <td>
+                    <input type="radio" name="seks" value="Pria" size="5"> Pria <br>
+                    <input type="radio" name="seks" value="Wanita" size="10"> Wanita
+                </td>
+            </tr>
+            <tr>
+                <td>Jabatan</td>
+                <td>
+                    <select name="jabatan">
+                        <option value="staf" selected>staf</option>
+                        <option value="manajer">manajer</option>
+                        <option value="karyawan">karyawan</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Fasilitas</td>
+                <td>
+                    <input type="checkbox" name="fasilitas" value="mobil">Mobil <br>
+                    <input type="checkbox" name="fasilitas" value="laptop">laptop <br>
+                    <input type="checkbox" name="fasilitas" value="rumah">Rumah 
+                </td>
+            </tr>
+            <tr>
+                <td><input type="submit" value="simpan"></td>
+                <td><input type="submit" value="batal"></td>
+            </tr>
+        </table>
+    </form>
+    
+</body>
+</html>
